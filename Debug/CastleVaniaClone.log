@@ -1,0 +1,9 @@
+﻿  CGamePanel.cpp
+C:\Users\JajajouWAB\Documents\C++\CastleVania\CastleVania\CastleVania_clone\CastleVaniaClone\CGamePanel.cpp(31,21): warning C4244: 'initializing': conversion from 'double' to 'DWORD', possible loss of data
+  CGameWorld.cpp
+  CGraphics.cpp
+C:\Users\JajajouWAB\Documents\C++\CastleVania\CastleVania\CastleVania_clone\CastleVaniaClone\CGraphics.cpp(188,35): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+  CWindow_Screen.cpp
+  winmain.cpp
+  Generating Code...
+  CastleVaniaClone.vcxproj -> C:\Users\JajajouWAB\Documents\C++\CastleVania\CastleVania\CastleVania_clone\CastleVaniaClone\Debug\CastleVaniaClone.exe
