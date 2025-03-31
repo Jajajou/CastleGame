@@ -1,4 +1,3 @@
-//CGamePanel.cpp
 #include "CGamePanel.h"
 
 
@@ -50,19 +49,13 @@ void CGamePanel::GameLoop()
 		{
 			frameStart = now;
 
-			//game->ProcessKeyboard();
-
-			//Update(dt);
 			GAMEWORLD->Update(dt);
 			GAMEWORLD->Render();
-			//Render();
 
 		}
 		else
 		{
-			//timeBeginPeriod(1);
 			Sleep(tickPerFrame - dt);
-			//timeEndPeriod(1);
 		}
 	}
 }

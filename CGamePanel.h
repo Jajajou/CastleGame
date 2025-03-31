@@ -1,4 +1,3 @@
-//CGamePanel.h
 #pragma once
 #include <d3dx9.h>
 #include "CGraphics.h"

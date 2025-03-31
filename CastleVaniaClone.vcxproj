@@ -190,28 +190,62 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AppConfiguration.h" />
-    <ClInclude Include="CastleVaniaClone.h" />
+    <ClInclude Include="BackgroundMap.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CCharacter.h" />
+    <ClInclude Include="CGameObjectManager.h" />
+    <ClInclude Include="CGameObjects.h" />
     <ClInclude Include="CGamePanel.h" />
+    <ClInclude Include="CGameState.h" />
     <ClInclude Include="CGameWorld.h" />
     <ClInclude Include="CGraphics.h" />
+    <ClInclude Include="CGround.h" />
+    <ClInclude Include="CObjects.h" />
+    <ClInclude Include="CScene.h" />
+    <ClInclude Include="CSceneManager.h" />
+    <ClInclude Include="CScene_Intro.h" />
+    <ClInclude Include="CScene_Menu.h" />
+    <ClInclude Include="CSimon.h" />
+    <ClInclude Include="CSprites.h" />
+    <ClInclude Include="CState.h" />
+    <ClInclude Include="CTextures.h" />
+    <ClInclude Include="CVisualFigures.h" />
     <ClInclude Include="CWindow_Screen.h" />
-    <ClInclude Include="framework.h" />
-    <ClInclude Include="Resource.h" />
-    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Enum.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="GridContainer.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="LoadResources.h" />
+    <ClInclude Include="ReadFilesHelper.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BackgroundMap.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CCharacter.cpp" />
+    <ClCompile Include="CGameObjectManager.cpp" />
+    <ClCompile Include="CGameObjects.cpp" />
     <ClCompile Include="CGamePanel.cpp" />
+    <ClCompile Include="CGameState.cpp" />
     <ClCompile Include="CGameWorld.cpp" />
     <ClCompile Include="CGraphics.cpp" />
+    <ClCompile Include="CGround.cpp" />
+    <ClCompile Include="CObjects.cpp" />
+    <ClCompile Include="CScene.cpp" />
+    <ClCompile Include="CSceneManager.cpp" />
+    <ClCompile Include="CScene_Intro.cpp" />
+    <ClCompile Include="CScene_Menu.cpp" />
+    <ClCompile Include="CSimon.cpp" />
+    <ClCompile Include="CSprites.cpp" />
+    <ClCompile Include="CState.cpp" />
+    <ClCompile Include="CTextures.cpp" />
+    <ClCompile Include="CVisualFigures.cpp" />
     <ClCompile Include="CWindow_Screen.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="GridContainer.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="LoadResources.cpp" />
+    <ClCompile Include="ReadFilesHelper.cpp" />
     <ClCompile Include="winmain.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="CastleVaniaClone.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="CastleVaniaClone.ico" />
-    <Image Include="small.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

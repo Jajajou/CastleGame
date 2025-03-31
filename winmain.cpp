@@ -2,9 +2,6 @@
 #include <d3dx9.h>
 #include <time.h>
 #include <stdio.h>
-//#include "dxgraphics.h"
-
-
 #include "CGamePanel.h"
 #include "AppConfiguration.h"
 

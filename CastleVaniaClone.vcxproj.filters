@@ -16,31 +16,61 @@
     <Filter Include="Source Files\Game Core">
       <UniqueIdentifier>{5111964b-9d3e-4a61-915e-f0f90acf2e34}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Game Graphics">
-      <UniqueIdentifier>{ccc863b0-a6d6-4457-80b9-eadf612c675e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Window">
       <UniqueIdentifier>{935d489a-e833-4029-857e-6f9e46e9fae4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Texture">
+      <UniqueIdentifier>{b90a2215-26ef-41f1-ada3-a8cf97611cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sprite">
+      <UniqueIdentifier>{8e9252d9-ef20-406e-8a07-0b1977a6751b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects">
+      <UniqueIdentifier>{940b66f0-6b90-4d8e-9167-52d17e38e31f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Managers">
+      <UniqueIdentifier>{f0ca17be-9824-462c-8608-a6016709d99b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{c05d8f4a-9b06-45a6-b36e-f914b8a91eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes\Grid">
+      <UniqueIdentifier>{5e36f125-f7b2-436c-8dde-dc4e24e3e8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Core\Game State">
+      <UniqueIdentifier>{02061d36-2bfb-46b1-b5c6-f1d70e99eed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Ground">
+      <UniqueIdentifier>{4dac5bcd-c652-46f0-b38a-1b60583fe71e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes\Camera">
+      <UniqueIdentifier>{5c60243a-a3e3-454c-bcca-3f6e5ae3858c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes\Intro">
+      <UniqueIdentifier>{d5a5ee79-c212-48b8-a006-837fdfbd3233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Core\Game Graphics">
+      <UniqueIdentifier>{ccc863b0-a6d6-4457-80b9-eadf612c675e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Map">
+      <UniqueIdentifier>{1c409817-c997-447f-b131-86d3f72e7315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visual Firgures">
+      <UniqueIdentifier>{63ffd115-6a9c-463f-9fed-8f5d54557104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Simon">
+      <UniqueIdentifier>{d0597d4c-964a-4533-b68b-b0ddec3cbf56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes\Menu">
+      <UniqueIdentifier>{54cb2f54-ed3d-4454-9b83-38a1e52bb194}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CastleVaniaClone.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="CGamePanel.h">
       <Filter>Source Files\Game Core</Filter>
     </ClInclude>
     <ClInclude Include="CGraphics.h">
-      <Filter>Source Files\Game Graphics</Filter>
+      <Filter>Source Files\Game Core\Game Graphics</Filter>
     </ClInclude>
     <ClInclude Include="CGameWorld.h">
       <Filter>Source Files\Game Core</Filter>
@@ -51,13 +81,82 @@
     <ClInclude Include="AppConfiguration.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CTextures.h">
+      <Filter>Source Files\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprites.h">
+      <Filter>Source Files\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjects.h">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjects.h">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadResources.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadFilesHelper.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>Source Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Source Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Source Files\Scenes\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="GridContainer.h">
+      <Filter>Source Files\Scenes\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObjectManager.h">
+      <Filter>Source Files\Game Objects\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameState.h">
+      <Filter>Source Files\Game Core\Game State</Filter>
+    </ClInclude>
+    <ClInclude Include="CState.h">
+      <Filter>Source Files\Game Core\Game State</Filter>
+    </ClInclude>
+    <ClInclude Include="CGround.h">
+      <Filter>Source Files\Game Objects\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files\Scenes\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Intro.h">
+      <Filter>Source Files\Scenes\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundMap.h">
+      <Filter>Source Files\Game Objects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CVisualFigures.h">
+      <Filter>Source Files\Visual Firgures</Filter>
+    </ClInclude>
+    <ClInclude Include="CSimon.h">
+      <Filter>Source Files\Game Objects\Simon</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharacter.h">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Menu.h">
+      <Filter>Source Files\Scenes\Menu</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="winmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CGraphics.cpp">
-      <Filter>Source Files\Game Graphics</Filter>
+      <Filter>Source Files\Game Core\Game Graphics</Filter>
     </ClCompile>
     <ClCompile Include="CGamePanel.cpp">
       <Filter>Source Files\Game Core</Filter>
@@ -68,18 +167,71 @@
     <ClCompile Include="CWindow_Screen.cpp">
       <Filter>Source Files\Window</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="CastleVaniaClone.rc">
+    <ClCompile Include="CTextures.cpp">
+      <Filter>Source Files\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprites.cpp">
+      <Filter>Source Files\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjects.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjects.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObjectManager.cpp">
+      <Filter>Source Files\Game Objects\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadResources.cpp">
       <Filter>Resource Files</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="small.ico">
+    </ClCompile>
+    <ClCompile Include="ReadFilesHelper.cpp">
       <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="CastleVaniaClone.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Source Files\Scenes\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="GridContainer.cpp">
+      <Filter>Source Files\Scenes\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameState.cpp">
+      <Filter>Source Files\Game Core\Game State</Filter>
+    </ClCompile>
+    <ClCompile Include="CState.cpp">
+      <Filter>Source Files\Game Core\Game State</Filter>
+    </ClCompile>
+    <ClCompile Include="CGround.cpp">
+      <Filter>Source Files\Game Objects\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Scenes\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Intro.cpp">
+      <Filter>Source Files\Scenes\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundMap.cpp">
+      <Filter>Source Files\Game Objects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CVisualFigures.cpp">
+      <Filter>Source Files\Visual Firgures</Filter>
+    </ClCompile>
+    <ClCompile Include="CSimon.cpp">
+      <Filter>Source Files\Game Objects\Simon</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharacter.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Menu.cpp">
+      <Filter>Source Files\Scenes\Menu</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
